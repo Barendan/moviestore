@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "MovieStore - Online movies" %></title>
+    <link rel="shortcut icon" href="<%=asset_path("logo.png")%>" >
 
     <%= stylesheet_link_tag    "application" %>
-    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
   </head>
 
@@ -29,6 +30,8 @@
         <p>© MovieStore 2014</p>
       </div>
     </footer>
+
+    <%= javascript_include_tag "application" %>
 
   </body>
 </html>

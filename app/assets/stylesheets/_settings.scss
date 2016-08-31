@@ -366,6 +366,15 @@ $label-font-size: 0.8rem;
 $label-padding: 0.33333rem 0.5rem;
 $label-radius: $global-radius;
 
+
+$label-padding: rem-calc(5 15);
+$label-font-sizing: rem-calc(14);
+.movie-label {
+ $text-size:13px;
+ $bg: #3D3D32;
+ color: gold;
+}
+
 // 21. Media Object
 // ----------------
 
@@ -489,6 +498,9 @@ $switch-paddle-offset: 0.25rem;
 $switch-paddle-radius: $global-radius;
 $switch-paddle-transition: all 0.25s ease-out;
 
+$switch-active-color: $primary-color;
+
+
 // 31. Table
 // ---------
 
@@ -559,9 +571,21 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
-$topbar-submenu-background: $topbar-background;
+// $topbar-background: $light-gray;
+// $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
+
+
+// ADDED
+$topbar-bg-color: rgba(255, 255, 255, 0);
+$topbar-title-font-size: rem-calc(25);
+
+$topbar-height: 45px;
+$topbar-margin-bottom: 30px;
+$topbar-link-bg-hover: $primary-color;
+$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+$topbar-link-padding: $topbar-height / 3;
+
 

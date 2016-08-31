@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 
+gem 'redis', '~> 3.0.1'
+gem 'hiredis', '~> 0.4.5'
 
 gem 'devise'
 gem 'foundation-rails'
