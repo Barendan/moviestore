@@ -1,11 +1,17 @@
 .movies-grid {
-  .movie-card {
-    width:220px;
-    margin:auto;
-    .poster img {
-      height: 325px;
-      width:100%;
-    }
-    .movie-info { .title { height: 4em; } }
-  }
+	.movie-card {
+		width:220px;
+		margin:auto;
+
+		.poster img {
+		  height: 325px;
+		  width:100%;
+		}
+		.movie-info { .title { height: 4em; } }
+	}
+	.movie-card:hover {
+		-ms-transform: scale(1.1,1.1); /* IE 9 */
+    	-webkit-transform: scale(1.1,1.1); /* Safari */
+    	transform: scale(1.1,1.1); /* Standard syntax */
+	}
 }
