@@ -19,8 +19,56 @@ body {
     top: 2px;
   }
 }
-// Topbar items
-.top-bar-section ul li { background: transparent }
+
+
+
+.top-bar{
+  display: inline-block;
+  position: relative;
+  // font-size: rem-calc(25);
+  // height: 10%;
+  font-family: 'Baloo Tamma', cursive;
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+  width: 100%;
+  line-height: 1rem;
+} 
+.top-bar span {
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+  opacity: 0.8;
+}
+.top-bar span:hover {
+  opacity: 1.0;
+}
+.right {
+  display: inline-block;
+  float: right;
+  list-style-type: none;
+  // line-height: 1rem;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.right li {
+  float: right;
+  padding-right: 2rem;
+}
+.right li a {
+  color: white;
+  // text-decoration: underline;
+  opacity: 0.8;
+}
+.right li a:hover {
+  opacity: 1.0;
+}
+
+
+
+
+
 // Forms
 .form-container {
   padding: 3% 3%;
@@ -28,4 +76,16 @@ body {
     position: relative;
     top: -5px;
   }
+}
+
+// $topbar-link-bg-hover: $primary-color;
+// $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+// $topbar-link-padding: $topbar-height / 3;
+
+
+.movie-label {
+  text-size:13px;
+  background-color: #3D3D32;
+  color: gold;
+  border-radius: 8%;
 }
