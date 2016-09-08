@@ -44,12 +44,11 @@ body {
   opacity: 1.0;
 }
 .right {
-  display: inline-block;
   float: right;
   list-style-type: none;
-  // line-height: 1rem;
+  // line-height: 1.5rem;
   overflow: hidden;
-  padding: 0;
+  padding-top: 1%;
   margin: 0;
 }
 .right li {
@@ -65,8 +64,40 @@ body {
   opacity: 1.0;
 }
 
+.cart-count {
+  font-size: 1rem !important;
+}
 
 
+.search {
+  display: inline-block;
+  // width: 15rem;
+  // height: 2.0rem;
+  padding-top: 5% !important;
+  line-height: inherit;
+}
+.search li {
+  list-style-type: none;
+  float: left;
+}
+.search li:first-child {
+  padding-left: 1rem !important;
+}
+.btn {
+  background-color: #B39600;
+  height: 1.5rem;
+  line-height: .3rem;
+}
+.fixy {
+  margin: 0;
+  padding: 0;
+  padding-left: 5px !important;
+  height: 1.6rem !important;
+  line-height: 40px;
+}
+.button {
+  margin: 0;
+}
 
 
 // Forms
@@ -88,4 +119,8 @@ body {
   background-color: #3D3D32;
   color: gold;
   border-radius: 8%;
+}
+
+.red {
+  color: red;
 }

@@ -9,6 +9,8 @@ class CartsController < ApplicationController
   def add
     $redis.sadd current_user_cart, params[:movie_id]
     render json: current_user.cart_count, status: 200
+
+    # redirect_to root_path
   end
 
   def remove

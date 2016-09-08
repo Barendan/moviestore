@@ -9,5 +9,4 @@ class MoviesController < ApplicationController
     @cart_action = @movie.cart_action current_user.try :id
   end
 
-
 end

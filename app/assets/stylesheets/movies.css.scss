@@ -15,3 +15,7 @@
     	transform: scale(1.1,1.1); /* Standard syntax */
 	}
 }
+
+.movie-card .poster img:hover {
+	border: 1px solid white;
+}
