@@ -2,18 +2,18 @@
 
 MovieCentral is an e-commerce store that sells movies. Conveniently enough... my favorite movies. 
 
-Technologies used: 
-	Rails – Back-end framework
-	Foundation 5 – Front-end css framework
-	Devise – User authentication
-	Redis – Key-value store
-	Braintree – Payment system
+Technologies used: <br>
+	Rails – Back-end framework<br>
+	Foundation 5 – Front-end css framework<br>
+	Devise – User authentication<br>
+	Redis – Key-value store<br>
+	Braintree – Payment system<br>
 
-Things still left to do:
-	Re-direct to main page after adding movie to cart (convenience)
-	Get search bar working/styled properly (commented out)
-	Change login/register font/menu style
-	Add BrainTree payment system
+Things still left to do:<br>
+	Re-direct to main page after adding movie to cart (convenience)<br>
+	Get search bar working/styled properly (commented out)<br>
+	Change login/register font/menu style<br>
+	Add BrainTree payment system<br>
 	
 
 # moviestore
